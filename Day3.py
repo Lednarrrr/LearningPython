@@ -75,7 +75,24 @@ print('thirty_days_of_python'.isidentifier())
 sentence='You cannot end a sentence with because because because is a conjunction'
 sentencedslice=sentence[sentence.index('because'):sentence.rindex('because')+len('because')]
 print(sentencedslice)
-'''
+
+# The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
 pythonLibraries=' '.join(['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon'])
 print(pythonLibraries)
-print()
+
+# Use the new line escape sequence to separate the following sentences
+print('I am enjoying this challenge.\nI just wonder what is next.')
+
+# Use a tab escape sequence to write the following lines.
+print('Name\t\tAge\tCountry\t\tCity\nAsabeneh\t250\tFinland\t\tHelsinki')
+
+# Use the string formatting method to display the following:
+radius = 10
+area = 3.14 * radius ** 2
+print(f'The area of a circle with radius {radius} is {area} meters square.')
+
+# Make the following using string formatting methods:
+a=8
+b=6
+print(f'{a} + {b} = {a+b}\n{a} - {b} = {a-b}\n{a} * {b} = {a*b}\n{a} / {b} = {a/b:.2f}\n{a} % {b} = {a%b}\n{a} // {b} = {a//b}\n{a} ** {b} = {a**b}')
+'''
