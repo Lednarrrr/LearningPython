@@ -20,7 +20,7 @@ print(len(lst5Items))
 print(f'first item: {lst5Items[0]} middle item: {lst5Items[len(lst5Items)//2]} last item: {lst5Items[-1]}')
 
 # 5. Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
-mixed_data_types=['Royce', 14, 167, 'single', 'PGMH 6-D Narra']
+mixed_data_types=['John', 14, 167, 'single', 'New York City']
 
 # 6. Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
 it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
